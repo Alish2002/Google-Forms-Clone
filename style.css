@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
+
+body {
+    background-color: #ebeaea;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main_container{
+    width: 45%;
+    height: 100%;
+    margin: auto;
+}
+
+
+.logoContainer{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid #C4C3C3;
+    background-image: url("images/logo.jpeg");
+    background-position: center;
+    background-size: 570px;
+    background-repeat: no-repeat;
+}
+
+.nameContainer{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid #C4C3C3;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.titleContainer{
+    width: 100%;
+    height: 50px;
+    background-color: #46555b;
+    border-top-left-radius: 10px;
+    color: white
+    
+}
+
+.nameContainer p{
+    display: inline;
+
+}
+
+.titleContainer p{
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#nameText{
+    padding-left: 20px;
+    padding-top: 150px;
+}
+#abc{
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid grey;
+}
+.identity{
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid #C4C3C3;
+    margin-top: 20px;
+    background-color: white;
+}
+.year{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid #C4C3C3;
+    margin-top: 20px;
+    background-color: white;
+}
+.rectangle{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    
+    margin-top: 20px;
+    
+    display: flex;
+    
+}
+.button{
+    width: 100px;
+    height: 40px;
+    border: 1px solid #C4C3C3;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 40px;
+    
+} 
+.submit{
+    width: 100px;
+    height: 40px;
+    border: 1px solid #C4C3C3;
+    background-color: rgb(51, 49, 49);
+    border-radius: 10px;
+    margin-top: 5px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
